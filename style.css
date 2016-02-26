@@ -1,0 +1,184 @@
+*{
+	box-sizing:border-box  !important;
+}
+html, body {
+	font-size:15px;
+	width: 100%;
+	height: 100%;
+	color: rgb(0,0,0);
+	line-height:1.6em;
+	font-family: '微軟正黑體','Open Sans', sans-serif;
+}
+body {
+	padding-top: 40px;
+}
+a{
+	text-decoration:none;
+}
+header{
+	min-height:100%;
+	line-height:3em;
+	text-align:center;
+	background-image:url('https://blog.gdsecret.net/include/aI1tDC8PaLM_3840_2560.jpg');
+	background-size:cover;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+header{
+	color:white;
+}
+header h1{
+	font-size:400%;
+	line-height:0.5em;
+	text-shadow:0 0 5px rgba(100,100,100,0.5);
+}
+nav{
+	position:fixed;
+	top:0;
+	background-color:black;
+	color:rgb(190,190,190);
+	width:100%;
+	padding-left:15px;
+	padding-right:15px;
+}
+nav ul li{
+	float:left;
+	margin-left:8px;
+}
+nav ul.navbar-right li{
+	float:right;
+	margin-left:8px;
+}
+nav ul li a{
+	padding:12px 7px;
+	display:inline-block;
+}
+nav ul li a.navbar-brand{
+	font-size:120%;
+}
+nav ul li a:link {
+	color:rgb(190,190,190);
+}
+nav ul li a:visited {
+	color:rgb(190,190,190);
+}
+nav ul li a:hover {
+	color:rgb(255,255,255);
+}
+nav ul li a:active {
+	color:rgb(255,255,255);
+}
+footer{
+	margin-top:5em;
+	padding:15px;
+	clear:both;
+	text-align:center;
+}
+h1,h2,h3{
+	font-weight: normal;
+}
+h1{
+	font-size:200%;
+	line-height:3em;
+}
+h2{
+	font-size:170%;
+	line-height:3em;
+}
+h3{
+	font-size:130%;
+	line-height:1.5em;
+}
+ul li{
+	line-height:1.65em;
+}
+.btn{
+	padding:5px 7px;
+	background-color:rgb(30,60,200);
+	border-radius:5px;
+	border:1px solid rgb(20,50,180);
+	color:white;
+}
+.btn:hover{
+	background-color:rgb(30,60,180);
+}
+.btn:focus{
+	border:2px groove rgb(20,50,180);
+	background-color:rgb(20,50,170);
+}
+.btn-lg{
+	padding:7px 10px;
+	font-size:120%;
+}
+div[class^='col-']{
+	float:left;
+	/*display:inline-block;*/
+}
+div[class^='col-'] img{
+	max-width:100%;
+}
+#about{
+	text-align:center;
+}
+#about img+h3{
+	font-size:120%;
+}
+#about p{
+	margin-bottom:2em;
+}
+.img-thumbnail{
+	border:1px solid rgb(200,200,200);
+	border-radius:5px;
+	width:calc(100% - 5px);
+}
+.container{
+	width:80%;
+	min-width:384px;
+	max-width:1280px;
+	margin:0 auto;
+}
+.clearfix{
+	clear:both;
+}
+.col-1{
+	width:calc(100% / 12 * 1 - 5px);
+}
+.col-2{
+	width:calc(100% / 12 * 2 - 5px);
+}
+.col-3{
+	width:calc(100% / 12 * 3 - 5px);
+}
+.col-4{
+	width:calc(100% / 12 * 4 - 5px);
+}
+.col-5{
+	width:calc(100% / 12 * 5 - 5px);
+}
+.col-6{
+	width:calc(100% / 12 * 6 - 5px);
+}
+.col-7{
+	width:calc(100% / 12 * 7 - 5px);
+}
+.col-8{
+	width:calc(100% / 12 * 8 - 5px);
+}
+.col-9{
+	width:calc(100% / 12 * 9 - 5px);
+}
+.col-10{
+	width:calc(100% / 12 * 10 - 5px);
+}
+.col-11{
+	width:calc(100% / 12 * 11 - 5px);
+}
+.col-12{
+	width:100%;
+}
+@media screen and (max-width:768px){
+	div[class^='col-']{
+		width:100%;
+	}
+}
